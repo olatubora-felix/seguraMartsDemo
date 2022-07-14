@@ -1,0 +1,918 @@
+{
+    "foods": [
+        {
+            "id": 1,
+            "name": "Dry Food",
+           "groceries": [
+            {
+                "id": 1,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644222088/unsplash_a-QH9MAAVNI_utsist.svg",
+                "title": "Semolina",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644222088/unsplash_a-QH9MAAVNI_utsist.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644222088/unsplash_a-QH9MAAVNI_utsist.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644222088/unsplash_a-QH9MAAVNI_utsist.svg"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809125/freshdeal2_lnlj1n.svg",
+                "title": "Mama Gold",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.0",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809125/freshdeal2_lnlj1n.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809125/freshdeal2_lnlj1n.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809125/freshdeal2_lnlj1n.svg"
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404093/unsplash_a-QH9MAAVNI_o0lk0t.svg",
+                "title": "Cap Rice",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "4.5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404093/unsplash_a-QH9MAAVNI_o0lk0t.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404093/unsplash_a-QH9MAAVNI_o0lk0t.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404093/unsplash_a-QH9MAAVNI_o0lk0t.svg"
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404209/unsplash_a-QH9MAAVNI_2_cv2cjt.svg",
+                "title": "Basmati Rice",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404209/unsplash_a-QH9MAAVNI_2_cv2cjt.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404209/unsplash_a-QH9MAAVNI_2_cv2cjt.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404209/unsplash_a-QH9MAAVNI_2_cv2cjt.svg"
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg",
+                "title": "Ofada Rice",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "2.1",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327560/unsplash_a-QH9MAAVNI_4_qqao97.svg",
+                "title": "Honey Beans",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327560/unsplash_a-QH9MAAVNI_4_qqao97.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327560/unsplash_a-QH9MAAVNI_4_qqao97.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327560/unsplash_a-QH9MAAVNI_4_qqao97.svg"
+                  }
+                ]
+                
+              },
+              {
+                "id": 7,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327558/unsplash_a-QH9MAAVNI_5_ytnq18.svg",
+                "title": "Garri Ijebu",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327558/unsplash_a-QH9MAAVNI_5_ytnq18.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327558/unsplash_a-QH9MAAVNI_5_ytnq18.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327558/unsplash_a-QH9MAAVNI_5_ytnq18.svg"
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327556/unsplash_a-QH9MAAVNI_6_cm6d5w.svg",
+                "title": "Poundo Potato",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327547/unsplash_a-QH9MAAVNI_7_fwuhkm.svg",
+                "title": "Elubo Oyo",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5"
+              },
+            {
+                "id": 10,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644222088/unsplash_a-QH9MAAVNI_utsist.svg",
+                "title": "Semolina",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327556/unsplash_a-QH9MAAVNI_6_cm6d5w.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327556/unsplash_a-QH9MAAVNI_6_cm6d5w.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327556/unsplash_a-QH9MAAVNI_6_cm6d5w.svg"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809125/freshdeal2_lnlj1n.svg",
+                "title": "Mama Gold",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.0",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809125/freshdeal2_lnlj1n.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809125/freshdeal2_lnlj1n.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809125/freshdeal2_lnlj1n.svg"
+                  }
+                ]
+              },
+              {
+                "id": 12,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404093/unsplash_a-QH9MAAVNI_o0lk0t.svg",
+                "title": "Cap Rice",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "4.5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404093/unsplash_a-QH9MAAVNI_o0lk0t.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404093/unsplash_a-QH9MAAVNI_o0lk0t.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404093/unsplash_a-QH9MAAVNI_o0lk0t.svg"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404209/unsplash_a-QH9MAAVNI_2_cv2cjt.svg",
+                "title": "Basmati Rice",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5","images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404209/unsplash_a-QH9MAAVNI_2_cv2cjt.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404209/unsplash_a-QH9MAAVNI_2_cv2cjt.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644404209/unsplash_a-QH9MAAVNI_2_cv2cjt.svg"
+                  }
+                ]
+              },
+              {
+                "id": 14,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg",
+                "title": "Ofada Rice",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "2.1",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327563/unsplash_a-QH9MAAVNI_3_eqe5oz.svg"
+                  }
+                ]
+              },
+              {
+                "id": 15,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327560/unsplash_a-QH9MAAVNI_4_qqao97.svg",
+                "title": "Honey Beans",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327560/unsplash_a-QH9MAAVNI_4_qqao97.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327560/unsplash_a-QH9MAAVNI_4_qqao97.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327560/unsplash_a-QH9MAAVNI_4_qqao97.svg"
+                  }
+                ]
+              },
+              {
+                "id": 16,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327558/unsplash_a-QH9MAAVNI_5_ytnq18.svg",
+                "title": "Garri Ijebu",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327558/unsplash_a-QH9MAAVNI_5_ytnq18.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327558/unsplash_a-QH9MAAVNI_5_ytnq18.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327558/unsplash_a-QH9MAAVNI_5_ytnq18.svg"
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327556/unsplash_a-QH9MAAVNI_6_cm6d5w.svg",
+                "title": "Poundo Potato",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327556/unsplash_a-QH9MAAVNI_6_cm6d5w.svg"
+                  },
+                  {
+                      "img": "hhttps://res.cloudinary.com/mobinet/image/upload/v1644327556/unsplash_a-QH9MAAVNI_6_cm6d5w.svg"
+                  },
+                  {
+                      "img": "hhttps://res.cloudinary.com/mobinet/image/upload/v1644327556/unsplash_a-QH9MAAVNI_6_cm6d5w.svg"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327547/unsplash_a-QH9MAAVNI_7_fwuhkm.svg",
+                "title": "Elubo Oyo",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5",
+                "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327547/unsplash_a-QH9MAAVNI_7_fwuhkm.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327547/unsplash_a-QH9MAAVNI_7_fwuhkm.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327547/unsplash_a-QH9MAAVNI_7_fwuhkm.svg"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Tubers",
+            "groceries": [
+                {
+                  "id": 1,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230727/unsplash_a-QH9MAAVNI_2_y5ursq.svg",
+                 "title": "Yam Tuber",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "3.5",
+                  "images": [
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230727/unsplash_a-QH9MAAVNI_2_y5ursq.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230727/unsplash_a-QH9MAAVNI_2_y5ursq.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230727/unsplash_a-QH9MAAVNI_2_y5ursq.svg"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230785/unsplash_a-QH9MAAVNI_3_o7yc96.svg",
+                  "title": "Irish Potatoes",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "3.0",
+                  "images": [
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230785/unsplash_a-QH9MAAVNI_3_o7yc96.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230785/unsplash_a-QH9MAAVNI_3_o7yc96.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230785/unsplash_a-QH9MAAVNI_3_o7yc96.svg"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230777/unsplash_a-QH9MAAVNI_4_imbhyi.svg",
+                  "title": "Sweet Potatoes",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "4.5",
+                  "images": [
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230777/unsplash_a-QH9MAAVNI_4_imbhyi.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230777/unsplash_a-QH9MAAVNI_4_imbhyi.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230777/unsplash_a-QH9MAAVNI_4_imbhyi.svg"
+                    }
+                  ]
+                },
+                {
+                  "id": "4",
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230772/unsplash_a-QH9MAAVNI_5_obwc6g.svg",
+                  "title": "Cassava",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "5",
+                  "images": [
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230772/unsplash_a-QH9MAAVNI_5_obwc6g.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230772/unsplash_a-QH9MAAVNI_5_obwc6g.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644230772/unsplash_a-QH9MAAVNI_5_obwc6g.svg"
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Oils",
+            "groceries": [
+                {
+                  "id": 1,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809124/freshdeal7_arxtyq.svg",
+                  "title": "Palm Oil (5kg)",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "3.5",
+                  "images": [
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809124/freshdeal7_arxtyq.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809124/freshdeal7_arxtyq.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1643809124/freshdeal7_arxtyq.svg"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231835/unsplash_a-QH9MAAVNI_6_mkt6ts.svg",
+                  "title": "Mamador Cooking Oil",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "3.0",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231835/unsplash_a-QH9MAAVNI_6_mkt6ts.sv"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231835/unsplash_a-QH9MAAVNI_6_mkt6ts.sv"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231835/unsplash_a-QH9MAAVNI_6_mkt6ts.sv"
+                  }
+                ]
+                },
+                {
+                  "id": 3,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231830/unsplash_a-QH9MAAVNI_7_agfuvu.svg",
+                  "title": "Devon Kings 25kg",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "4.5",
+                  "images": [
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231830/unsplash_a-QH9MAAVNI_7_agfuvu.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231830/unsplash_a-QH9MAAVNI_7_agfuvu.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231830/unsplash_a-QH9MAAVNI_7_agfuvu.svg"
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231826/unsplash_a-QH9MAAVNI_8_amwagz.svg",
+                  "title": "Mamador Variety Pack",
+                 " price": "₦54,130",
+                 " discount": "-10%",
+                  "save": "#34,400",
+                  "review": "5",
+                  "images": [
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231826/unsplash_a-QH9MAAVNI_8_amwagz.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231826/unsplash_a-QH9MAAVNI_8_amwagz.svg"
+                    },
+                    {
+                        "img": "https://res.cloudinary.com/mobinet/image/upload/v1644231826/unsplash_a-QH9MAAVNI_8_amwagz.svg"
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Seasonings & Spices",
+            "groceries": [
+                {
+                  "id": 1,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235969/unsplash_a-QH9MAAVNI_9_l2u3rd.svg",
+                  "title": "Maggi Cubes",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "3.5",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235969/unsplash_a-QH9MAAVNI_9_l2u3rd.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235969/unsplash_a-QH9MAAVNI_9_l2u3rd.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235969/unsplash_a-QH9MAAVNI_9_l2u3rd.svg"
+                  }
+                ]
+                },
+                {
+                  "id": 2,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235967/unsplash_a-QH9MAAVNI_10_stetdg.svg",
+                  "title": "Knorr Chicken",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "3.0",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235967/unsplash_a-QH9MAAVNI_10_stetdg.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235967/unsplash_a-QH9MAAVNI_10_stetdg.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235967/unsplash_a-QH9MAAVNI_10_stetdg.svg"
+                  }
+                ]
+                },
+                {
+                  "id": 3,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235965/unsplash_a-QH9MAAVNI_11_dqfdhk.svg",
+                  "title": "Curry Powder",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "4.5",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235965/unsplash_a-QH9MAAVNI_11_dqfdhk.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235965/unsplash_a-QH9MAAVNI_11_dqfdhk.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235965/unsplash_a-QH9MAAVNI_11_dqfdhk.svg"
+                  }
+                ]
+                },
+                {
+                  "id": 4,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235960/unsplash_a-QH9MAAVNI_12_jsmm0a.svg",
+                  "title": "Onga Seasoning",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "5",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235960/unsplash_a-QH9MAAVNI_12_jsmm0a.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235960/unsplash_a-QH9MAAVNI_12_jsmm0a.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644235960/unsplash_a-QH9MAAVNI_12_jsmm0a.svg"
+                  }
+                ]
+                }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Vegetables",
+            "groceries": [
+                {
+                  "id": 1,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236988/unsplash_a-QH9MAAVNI_13_cg04pk.svg",
+                  "title": "Bell Peppers",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "3.5",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236988/unsplash_a-QH9MAAVNI_13_cg04pk.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236988/unsplash_a-QH9MAAVNI_13_cg04pk.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236988/unsplash_a-QH9MAAVNI_13_cg04pk.svg"
+                  }
+                ]
+                },
+                {
+                  "id": 2,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236985/unsplash_a-QH9MAAVNI_14_bwnkwm.svg",
+                  "title": "Tomatoes",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "3.0",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327547/unsplash_a-QH9MAAVNI_7_fwuhkm.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327547/unsplash_a-QH9MAAVNI_7_fwuhkm.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644327547/unsplash_a-QH9MAAVNI_7_fwuhkm.svg"
+                  }
+                ]
+                },
+                {
+                  "id": 3,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236983/unsplash_a-QH9MAAVNI_15_beptws.svg",
+                  "title": "Onion Basket",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "4.5",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236985/unsplash_a-QH9MAAVNI_14_bwnkwm.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236985/unsplash_a-QH9MAAVNI_14_bwnkwm.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644236985/unsplash_a-QH9MAAVNI_14_bwnkwm.svg"
+                  }
+                ]
+                },
+                {
+                  "id": 4,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1644237466/unsplash_a-QH9MAAVNI_17_hzh7az.svg",
+                  "title": "vegetables",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                 " review": "5",
+                 "images": [
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644237466/unsplash_a-QH9MAAVNI_17_hzh7az.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644237466/unsplash_a-QH9MAAVNI_17_hzh7az.svg"
+                  },
+                  {
+                      "img": "https://res.cloudinary.com/mobinet/image/upload/v1644237466/unsplash_a-QH9MAAVNI_17_hzh7az.svg"
+                  }
+                ]
+                }
+            ]
+          }
+      
+    ],
+
+    "pharmacys": [
+        {
+            "id": 1,
+            "name": "Tablets",
+           "drugs": [
+            {
+                "id": 1,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270131/unsplash_zhvaeh-R9rA_2_zs65gi.svg",
+                "title": "Aspirin",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.5"
+              },
+              {
+                "id": 2,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258270/unsplash_zhvaeh-R9rA_1_rimhgu.svg",
+                "title": "Goli Supplement",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.0"
+              },
+              {
+                "id": 3,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258260/unsplash_MOC4wqaasE8_1_qxxedw.svg",
+                "title": "Smart Kids",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "4.5"
+              },
+              {
+                "id": 4,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270136/unsplash_MOC4wqaasE8_2_tapjsi.svg",
+                "title": "Acti Fast",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5"
+              },
+              {
+                "id": 5,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270483/unsplash_zhvaeh-R9rA_3_cs0twu.svg",
+                "title": "Panadol Relief",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "2.1"
+              },
+              {
+                "id": 6,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270490/unsplash_zhvaeh-R9rA_4_qhh24f.svg",
+                "title": "Vitamin Tabs",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5"
+              },
+            {
+                "id": 7,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270131/unsplash_zhvaeh-R9rA_2_zs65gi.svg",
+                "title": "Aspirin",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.5"
+              },
+              {
+                "id": 8,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258270/unsplash_zhvaeh-R9rA_1_rimhgu.svg",
+                "title": "Goli Supplement",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.0"
+              },
+              {
+                "id": 9,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258260/unsplash_MOC4wqaasE8_1_qxxedw.svg",
+                "title": "Smart Kids",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "4.5"
+              },
+              {
+                "id": 10,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270136/unsplash_MOC4wqaasE8_2_tapjsi.svg",
+                "title": "Acti Fast",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5"
+              },
+              {
+                "id": 11,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270483/unsplash_zhvaeh-R9rA_3_cs0twu.svg",
+                "title": "Panadol Relief",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "2.1"
+              },
+              {
+                "id": 12,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270490/unsplash_zhvaeh-R9rA_4_qhh24f.svg",
+                "title": "Vitamin Tabs",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5"
+              },
+            {
+                "id": 13,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270131/unsplash_zhvaeh-R9rA_2_zs65gi.svg",
+                "title": "Aspirin",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.5"
+              },
+              {
+                "id": 14,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258270/unsplash_zhvaeh-R9rA_1_rimhgu.svg",
+                "title": "Goli Supplement",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "3.0"
+              },
+              {
+                "id": 15,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258260/unsplash_MOC4wqaasE8_1_qxxedw.svg",
+                "title": "Smart Kids",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "4.5"
+              },
+              {
+                "id": 16,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270136/unsplash_MOC4wqaasE8_2_tapjsi.svg",
+                "title": "Acti Fast",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5"
+              },
+              {
+                "id": 17,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270483/unsplash_zhvaeh-R9rA_3_cs0twu.svg",
+                "title": "Panadol Relief",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "2.1"
+              },
+              {
+                "id": 18,
+                "img": "https://res.cloudinary.com/mobinet/image/upload/v1645270490/unsplash_zhvaeh-R9rA_4_qhh24f.svg",
+                "title": "Vitamin Tabs",
+                "price": "₦54,130",
+                "discount": "-10%",
+                "save": "#34,400",
+                "review": "5"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Syrups",
+            "drugs": [
+                {
+                  "id": 1,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258258/unsplash_83ypHTv6J2M_t1oxmz.svg",
+                 "title": "Asthakure",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "3.5"
+                },
+                {
+                  "id": 2,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258401/unsplash_83ypHTv6J2M_1_besdgl.svg",
+                  "title": "Cufrest",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "3.0"
+                },
+                {
+                  "id": 3,
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258403/unsplash_xsGxhtAsfSA_wlykyr.svg",
+                  "title": "Paracetamol Drops",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "4.5"
+                },
+                {
+                  "id": "4",
+                  "img": "https://res.cloudinary.com/mobinet/image/upload/v1645258407/unsplash_xsGxhtAsfSA_1_siu5zi.svg",
+                  "title": "Bag of Garri",
+                  "price": "₦54,130",
+                  "discount": "-10%",
+                  "save": "#34,400",
+                  "review": "5"
+                }
+            ]
+          }   
+      
+    ]
+}
