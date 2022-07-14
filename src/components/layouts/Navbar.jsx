@@ -40,11 +40,11 @@ const Navbar = () => {
             </Center>
             <Right>
               <CartContainer>
-                <CartText>Cart</CartText>
-                <UserContainer>
-                  <PersonOutlineIcon style={{ color: 'rgba(20, 20, 20, 0.5)' }} />
-                </UserContainer>
                 <StyledLink to="/cart">
+                  <CartText>Cart</CartText>
+                  <UserContainer>
+                    <PersonOutlineIcon style={{ color: 'rgba(20, 20, 20, 0.5)' }} />
+                  </UserContainer>
                   <Badge color="secondary" badgeContent={cartTotalQuantity}>
                     <ShoppingCart style={{ color: 'rgba(20, 20, 20, 0.5)' }} />
                   </Badge>
