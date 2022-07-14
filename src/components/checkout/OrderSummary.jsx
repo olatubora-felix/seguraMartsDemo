@@ -1,12 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
-import itemImg from '../../images/semolina.svg'
+// import itemImg from '../../images/semolina.svg'
 import { useSelector } from 'react-redux'
 
 const OrderSummary = () => {
   const Navigate = useNavigate()
-  const { cartItems, cartTotalQuantity, cartTotalAmount } = useSelector((state) => state.cart)
+  const { cartItems, cartTotalAmount } = useSelector((state) => state.cart)
   const discut = cartItems.filter((item) => {
     return item.shippingPrice === 30
   })

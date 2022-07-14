@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import styled from 'styled-components'
-import FormComponent from './deliveryInform/FormComponent'
+// import FormComponent from './deliveryInform/FormComponent'
 
 const DelieveryInformation = () => {
   const user = useSelector((state) => state.auth.user)
