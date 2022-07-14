@@ -1,5 +1,5 @@
 import { Breadcrumbs, Container, Grid, Paper, Stack } from '@mui/material'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import styled from 'styled-components'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 import Items from './Items'
@@ -10,6 +10,7 @@ import { getSubCategories } from '../../redux/allProduct/subcategoryService'
 import { getProducts } from '../../redux/allProduct/productsService'
 
 const FoodSubCategory = () => {
+  const { id } = useParams()
   const dispatch = useDispatch()
   const subcategories = useSelector((state) => state.subcategory.subcategories?.data)
   const products = useSelector((state) => state.product.products?.data)
@@ -42,33 +43,37 @@ const FoodSubCategory = () => {
             style={{ width: '100%' }}
           />
         </Paper>
-        {subcategories?.map((subcategory, index) => (
-          <Fragment key={index}>
-            <Fragment key={subcategory._id}>
-              <FoodContent>
-                <FoodText text="black">{subcategory.name}</FoodText>
-                <FoodText text="blue">
-                  <StyledLink
-                    text="active"
-                    to={`/${subcategory.category?.name}/${subcategory._id}`}
-                  >
-                    See All
-                    <ArrowRightAltIcon size="small" />
-                  </StyledLink>
-                </FoodText>
-              </FoodContent>
-              <Grid container spacing={3}>
-                {products?.map((product) => {
-                  return (
-                    product.subcategory._id === subcategory._id && (
-                      <Items item={product} key={product._id} />
-                    )
-                  )
-                })}
-              </Grid>
-            </Fragment>
-          </Fragment>
-        ))}
+        {subcategories?.map((subcategory, index) => {
+          return (
+            subcategory.category?._id === id && (
+              <Fragment key={index}>
+                <Fragment key={subcategory._id}>
+                  <FoodContent>
+                    <FoodText text="black">{subcategory.name}</FoodText>
+                    <FoodText text="blue">
+                      <StyledLink
+                        text="active"
+                        to={`/${subcategory.category?.name}/${subcategory._id}`}
+                      >
+                        See All
+                        <ArrowRightAltIcon size="small" />
+                      </StyledLink>
+                    </FoodText>
+                  </FoodContent>
+                  <Grid container spacing={3}>
+                    {products?.map((product) => {
+                      return (
+                        product.subcategory._id === subcategory._id && (
+                          <Items item={product} key={product._id} />
+                        )
+                      )
+                    })}
+                  </Grid>
+                </Fragment>
+              </Fragment>
+            )
+          )
+        })}
       </Container>
     </FoodContainer>
   )

@@ -11,6 +11,9 @@ const FeaturedItems = ({ topProduct }) => {
   const totalDiscount = price - price / discount
 
   const save = price - totalDiscount
+  function financial(x) {
+    return Number.parseFloat(x).toFixed(2)
+  }
   return (
     <Fragment>
       <StyleLink to={`/product/details/${_id}`}>
@@ -56,7 +59,7 @@ const FeaturedItems = ({ topProduct }) => {
               ''
             ) : (
               <Typography variant="body5" component="h3" color="#256EE4" textAlign="end">
-                Save ${save}
+                Save ${financial(save)}
               </Typography>
             )}
           </Box>

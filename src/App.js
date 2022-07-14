@@ -42,10 +42,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/support" element={<Support />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/food" element={<Food />} />
+          <Route path="/product/Food/:id" element={<Food />} />
           <Route path="/food/:id" element={<AllFoodItems />} />
-          <Route path="/pharmacy/:id" element={<AllPharmacyItems />} />
-          <Route path="/pharmacy" element={<Pharmacy />} />
+          <Route path="/Pharmacy%20&%20Drugs/:id" element={<AllPharmacyItems />} />
+          <Route path="//product/Pharmacy%20&%20Drugs/:id" element={<Pharmacy />} />
           <Route path="/product/details/:id" element={<Detail />} />
           <Route path="/sellonseguramart" element={<SellOnSeguraMart />} />
           <Route path="/track_order" element={<TrackOrder />} />
