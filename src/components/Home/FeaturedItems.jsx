@@ -39,7 +39,7 @@ const FeaturedItems = ({ topProduct }) => {
                 </>
               ) : (
                 <Typography variant="body4" component="span">
-                  ${totalDiscount}
+                  ${financial(totalDiscount)}
                 </Typography>
               )}
 
