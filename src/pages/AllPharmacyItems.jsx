@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Container from '@mui/material/Container'
 import Breadcrumbs from '@mui/material/Breadcrumbs'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import Stack from '@mui/material/Stack'
 import NavigateNextIcon from '@mui/icons-material/NavigateNext'
 import styled from 'styled-components'
@@ -9,15 +9,22 @@ import PharmacyLeft from '../components/pharmacy/category/PharmacyLeft'
 import PharmacyRight from '../components/pharmacy/PharmacyRight'
 import Navbar from '../components/layouts/Navbar'
 import Footer from '../components/layouts/Footer'
+import { useDispatch } from 'react-redux'
+import { getSubCategories } from './../redux/allProduct/subcategoryService'
 
 const AllFoodItems = () => {
-  const location = useLocation()
-  const cat = location.pathname.split('/')[2]
+  const { id } = useParams()
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(getSubCategories())
+  }, [dispatch])
+
   const breadcrumbs = [
     <StyledLink key="1" to="/">
       Home
     </StyledLink>,
-    <StyledLink key="2" to={`/food/${cat}`} text="active">
+    <StyledLink key="2" to={`/product/food/${id}`} text="active">
       Food
     </StyledLink>,
   ]
@@ -36,7 +43,7 @@ const AllFoodItems = () => {
               <PharmacyLeft />
             </Left>
             <Right>
-              <PharmacyRight cat={cat} />
+              <PharmacyRight id={id} />
             </Right>
           </Component>
         </Container>

@@ -12,7 +12,7 @@ import { getProducts } from '../../redux/allProduct/productsService'
 const FoodSubCategory = () => {
   const { id } = useParams()
   const dispatch = useDispatch()
-  const subcategories = useSelector((state) => state.subcategory.subcategories?.data)
+  const subcategories = useSelector((state) => state.subcategory.subcategories)
   const products = useSelector((state) => state.product.products?.data)
 
   useEffect(() => {
@@ -53,7 +53,7 @@ const FoodSubCategory = () => {
                     <FoodText text="blue">
                       <StyledLink
                         text="active"
-                        to={`/${subcategory.category?.name}/${subcategory._id}`}
+                        to={`/${subcategory.category?.name}/${subcategory.name}/${subcategory._id}`}
                       >
                         See All
                         <ArrowRightAltIcon size="small" />

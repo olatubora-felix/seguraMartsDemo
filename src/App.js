@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Support from './pages/Support'
 import SellOnSeguraMart from './pages/SellOnSeguraMart'
 import Contact from './pages/Contact'
-import AllFoodItems from './pages/AllFoodItems'
 import Food from './pages/Food'
 import Detail from './pages/Detail'
 import Cart from './pages/Cart'
@@ -42,10 +41,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/support" element={<Support />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/product/Food/:id" element={<Food />} />
-          <Route path="/food/:id" element={<AllFoodItems />} />
-          <Route path="/Pharmacy%20&%20Drugs/:id" element={<AllPharmacyItems />} />
-          <Route path="//product/Pharmacy%20&%20Drugs/:id" element={<Pharmacy />} />
+          <Route path="/product/:id/:id" element={<Food />} />
+          {/* <Route path="/:id/:id" element={<AllPharmacyItems />} /> */}
+          <Route path="/:id/:id/:id" element={<AllPharmacyItems />} />
+          <Route path="/product/:id/:id" element={<Pharmacy />} />
           <Route path="/product/details/:id" element={<Detail />} />
           <Route path="/sellonseguramart" element={<SellOnSeguraMart />} />
           <Route path="/track_order" element={<TrackOrder />} />
